@@ -25,7 +25,7 @@ module.exports = function (context) {
 
     // COPY ICON
     // create target path
-    var iconTargetPath = path.join(context.opts.projectRoot, 'platforms', 'android', 'res', 'drawable');
+   var iconTargetPath = path.join(context.opts.projectRoot, 'platforms', 'android', 'app', 'src', 'main', 'res', 'drawable');   
     try {
       fs.mkdirSync(iconTargetPath);
     } catch (err) {
